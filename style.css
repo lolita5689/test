@@ -1,0 +1,63 @@
+html, body{
+    margin: -12px 0;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.content{/*фон с полем */
+    background: url(images/large.jpg) #fff no-repeat center;
+    background-size:  cover;
+    width: 548px;
+    height: 742px;
+    margin: 0 auto;
+}
+
+.back{ /*красный фон */
+    background: rgb(178,34,34);
+    opacity: 0.75;
+    width: 548px;
+    height: 742px;
+}
+
+.flexd{ /*делаем флексы */
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+}
+
+.grup1, .grup2, .grup3, .grup4, 
+.grup5, .grup6, .grup7, .grup8{ 
+    width:200px;
+    height: 165px;
+    opacity: 1.25;
+    color:white;
+}
+
+.nameGrup{
+    font-size: 16pt;
+    text-indent: 30px; 
+}
+
+hr{
+    padding:0px;
+    margin-top: -20px;
+}
+
+.komanda{
+    display: flex;
+}
+
+img{
+    width: 20px;
+    height: 20px;
+    margin: 3px ;
+}
+
+.komandaName{
+    margin: 2px 10px;
+    font-size: 9pt;
+}
